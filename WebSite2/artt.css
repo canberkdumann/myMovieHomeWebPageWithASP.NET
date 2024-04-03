@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.movies2 {
+    border: 1px solid gray;
+    width: 680px;
+    height: 597px;
+    margin: 15px;
+    background-color: ivory;
+    float: left;
+    overflow: hidden;
+}

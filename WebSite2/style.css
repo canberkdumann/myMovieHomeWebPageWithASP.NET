@@ -1,0 +1,251 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('images2/allmovies2.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration:none;
+    color:#555;
+}
+
+a:hover{
+    color:#999;
+}
+
+
+#wrapper {
+    width: 906px;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: gold;
+}
+    
+header {
+    float: left;
+    width: 100%;
+    height: 45px;
+    background-color: lightyellow;
+}
+
+    header.logo {
+        float: left;
+        width: 89px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        text-align: center;
+        line-height: 45px;
+        color: red;
+    }
+
+    header nav {
+        float: left;
+        width: 609px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        background-color: red;
+        line-height: 45px;
+    }
+
+        header nav ul {
+            list-style: none;
+            
+        }
+
+
+            header nav ul li {
+                float: left;
+                margin-left: 20px;
+                color: red;
+                background-color:red;
+                
+            }
+
+
+.auto-style28{
+    float:right;
+    
+}
+
+
+.left-side {
+    float: left;
+    width: 285px;
+    height: auto;
+    margin-top: 200px;
+}
+
+     .left-side .sign-up-now{
+    float:left;
+    width:285px;
+    height:auto;
+    
+   }
+
+      .left-side .sign-up-now .up{
+    float:left;
+    width:95%;
+    height:44px;
+    line-height:44px;
+    padding-left:15px;
+    border-bottom: 1px solid #ccc;
+    background-color:#fff;
+    
+
+      }
+
+        .left-side .sign-up-now .down {
+        float: left;
+        width: 250px;
+        height: 250px;
+        padding:17.5px;
+        border-bottom: 1px solid #ccc;
+        color:#555;
+        background-color:#fff;
+      }
+
+           .left-side .sign-up-now .down .password {
+            margin-top:15px;
+           }
+
+
+            .left-side .sign-up-now .down .textbox{
+                width:228px;
+                padding:10px;
+                height:18px;
+                border-bottom:1px solid #ccc;
+            }
+
+
+               .left-side .sign-up-now .down .BtnSignUp{
+
+                   float:right;
+                   width:100px;
+                   height:40px;
+                   line-height:40px;
+                   text-align:center;
+                   color:white;
+                   background-color:dodgerblue;
+                   cursor:pointer;
+                   margin-top:10px;
+               }
+
+                 .left-side .sign-up-now .down .BtnLogin {
+                float: right;
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+                text-align:right;
+                color: white;
+                cursor:pointer;
+                background-color:mediumblue;
+                margin-top: 10px;
+                    }
+
+                                   .uyari{
+                                       float:left;
+                                       margin-top:40px;
+                                       
+                                   }
+
+
+                             .pnlUser{
+                                 width:254px;
+                                 background-color:white;
+                                 padding:15px;
+                             }
+
+                         .userExit{
+                             
+                             margin-top:10px;
+                             background-color:white;
+                             cursor:pointer;
+                             color:dodgerblue;
+                         }
+          
+
+
+
+                .left-side .announcements{
+        float:left;
+        width:285px;
+        height:auto;
+        margin-top:45px;
+            
+
+    }
+
+
+        .left-side .announcements .up {
+            float: left;
+            width: 95%;
+            height: 44px;
+            line-height: 44px;
+            padding-left: 15px;
+            border-bottom: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        .left-side .announcements .down {
+            float: left;
+            width: 250px;
+            height: 140px;
+            padding: 17.5px;
+            border-bottom: 1px solid #ccc;
+            color: #555;
+            background-color: #fff;
+            
+        }
+
+
+           .left-side .announcements .down .announcement-wrap {
+            float: left;
+            height:auto;
+            width:250px;
+            background-color:#fff;
+            margin: 10px 0;
+           }
+
+
+               .left-side .announcements .down .announcement-wrap:hover {
+                
+                background-color:#999;
+               }
+
+
+
+
+footer {
+    background-color: #e8de0b;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 500px; 
+}
+
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.auto-style1 {
+    width: 11%;
+    height: 298px;
+}
+
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.auto-style25{
+    height:70px;
+    margin-bottom:50px;
+}

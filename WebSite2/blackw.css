@@ -1,0 +1,23 @@
+﻿body {
+   
+    
+}
+
+.movies3{
+    border:1px solid gray;
+    width:610px;
+    height:457px;
+    margin:15px;
+    background-color:ivory;
+    float:left;
+    overflow:hidden;
+}
+
+.panel1{  
+    float:left;
+    margin-left:auto;
+}
+
+.movieinfo{
+    display:block;
+}

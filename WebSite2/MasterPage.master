@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>🎬 My Movie Home</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="master.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style2 {
+            width: 52px;
+            height: 41px;
+        }
+
+        .auto-style8 {
+            width: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header style="font-size:small; font-weight: bold; font-style: italic">
+        <nav style="width: 100%;">
+            <ul>
+                <li>
+                    <a href="default3.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Homepage </a>
+                </li>
+                <li>
+                    <a href="addmovie.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Archive Creation </a>
+                </li>
+                <li>
+                    <a href="search.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Search Movies </a>
+                </li>
+                <li>
+                    <a href="quotes.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Quotes </a>
+                </li>
+                <li>
+                    <a href="unknown.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Unknown Facts </a>
+                </li>
+                <li>
+                    <a href="blackwhite.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Black&White </a>
+                </li>
+                <li>
+                    <a href="art1.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Art </a>
+                </li>
+                <li>
+                    <a href="books.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Books </a>
+                </li>
+                <li>
+                    <a href="contact1.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Contact </a>
+                </li>
+                <li id="bwModerator" runat="server">
+                    <a href="addblackwhite.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Add Black&White </a>
+                </li>
+                <li id="bookModerator" runat="server">
+                    <a href="addbooks.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Add Books</a>
+                </li>
+                <li id="artModerator" runat="server">
+                    <a href="art.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Add Artworks </a>
+                </li>
+                <li id="answerModerator" runat="server">
+                    <a href="answer.aspx" style="color: #FFFFFF; text-transform: none; text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">Answer to users</a>
+                </li>
+
+
+                <li class="auto-style8"></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <div class="myfooter">
+
+        <div class="btn-o bg" data-scribe="component:button" style="width: 100%;">
+            <a href="https://www.instagram.com/canberk.duman/" class="btn" id="b">
+                <i class="fa fa-instagram ft14"></i>
+                <img class="auto-style2" src="images2/insta.png" />
+                © 2020-2021 Designed by Cemil Canberk Duman
+            </a>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>

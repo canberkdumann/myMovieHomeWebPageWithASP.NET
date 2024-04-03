@@ -1,0 +1,99 @@
+﻿body {
+    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+    a:hover {
+        color: #999;
+    }
+
+
+#wrapper {
+    width: 906px;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 45px;
+   
+}
+
+      header.logo {
+        float: left;
+        width: 89px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        text-align: center;
+        line-height: 45px;
+        
+        color: red;
+    }                      
+
+ header nav {
+        float: left;
+        width: 609px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+        background-color: red;
+        line-height: 45px;
+    }                            
+
+        header nav ul {
+            list-style: none;
+            
+        }
+
+
+            header nav ul li {
+                float: left;
+                margin-left: 20px;
+                color: red;
+
+            }
+
+.myfooter {
+    float:left;
+    background-color: #e8de0b;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.auto-style1 {
+    width: 11%;
+    height: 298px;
+}
+
+
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+
